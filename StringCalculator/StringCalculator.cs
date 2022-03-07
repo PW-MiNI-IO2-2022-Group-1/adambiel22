@@ -11,6 +11,7 @@ namespace StringCalculator
         private static readonly string[] delimeters = { ",", "\n" };
         public static int CalculateString(string s)
         {
+            return 0;
             if (string.IsNullOrWhiteSpace(s))
             {
                 return 0;
